@@ -5,7 +5,27 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
-		<title>NuCamp: A Better Way To Camp</title>
+		<!-- Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+		/>
+		<!-- Additional CSS must be placed after Bootstrap CSS -->
+		<link
+			rel="stylesheet"
+			href="node_modules/font-awesome/css/font-awesome.min.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="node_modules/bootstrap-social/bootstrap-social.css"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans"
+		/>
+		<link rel="stylesheet" href="css/styles.css" />
+
+		<title>NuCamp: About Us</title>
 	</head>
 
 	<body>
@@ -33,7 +53,7 @@
 				<div class="collapse navbar-collapse" id="navbarToggle">
 					<ul class="navbar-nav">
 						<li class="nav-item active">
-							<a class="nav-link" href="#"
+							<a class="nav-link" href="index.html"
 								><i class="fa fa-home fa-lg"></i> Home</a
 							>
 						</li>
@@ -48,7 +68,7 @@
 							>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="#"
+							<a class="nav-link" href="contactus.html"
 								><i class="fa fa-address-card fa-lg"></i>
 								Contact</a
 							>
@@ -58,21 +78,22 @@
 			</div>
 		</nav>
 
-		<ol class="breadcrumb">
-			<li class="breadcrumb-item"><a href="index.html">Home</a></li>
-			<li class="breadcrumb-item active">About Us</li>
-		</ol>
-
-		<div>
-			<div>
-				<div>
+		<div class="container">
+			<div class="row">
+				<div class="col">
+					<ol class="breadcrumb">
+						<li class="breadcrumb-item">
+							<a href="index.html">Home</a>
+						</li>
+						<li class="breadcrumb-item active">About Us</li>
+					</ol>
 					<h2>About Us</h2>
 					<hr />
 				</div>
 			</div>
 
-			<div>
-				<div>
+			<div class="row row-content">
+				<div class="col-sm-6">
 					<h3>Our Mission</h3>
 					<p>
 						We present a curated database of the best campsites in
@@ -86,16 +107,57 @@
 						with each other.
 					</p>
 				</div>
+				<div class="col-sm-6">
+					<div class="card">
+						<h3 class="card-header bg-primary text-white">
+							Facts At a Glance
+						</h3>
+						<div class="card-body">
+							<dl class="row">
+								<dt class="col-6">Founded</dt>
+								<dd class="col-6">February 3, 2016</dd>
+								<dt class="col-6">
+									No. of Campsites in 2019
+								</dt>
+								<dd class="col-6">563</dd>
+								<dt class="col-6">
+									No. of Reviews in 2019
+								</dt>
+								<dd class="col-6">4388</dd>
+								<dt class="col-6">Employees</dt>
+								<dd class="col-6">42</dd>
+							</dl>
+						</div>
+					</div>
+				</div>
+				<div class="col">
+					<div class="card card-body bg-light mt-3">
+						<blockquote class="blockquote">
+							<p class="mb-0">
+								I will not follow where the path may lead, but I
+								will go where there is no path, and I will leave
+								a trail.
+							</p>
+							<footer class="blockquote-footer">
+								Muriel Strode,
+								<cite title="Source Title"
+									>"Wind-Wafted Wild Flowers" - The Open
+									Court, 1903</cite
+								>
+							</footer>
+						</blockquote>
+					</div>
+				</div>
 			</div>
 
-			<div>
-				<div>
+			<div class="row row-content">
+				<div class="col">
 					<h3>Community Partners</h3>
 					<h4>
 						Bootstrap Outfitters
 						<small>Outdoor Gear Specialists</small>
 					</h4>
-					<p>
+					<p class="d-done d-sm-block">
 						Bootstrap Outfitters supplies you with the gear you need
 						at prices you can't beat.
 					</p>
@@ -103,7 +165,7 @@
 						Git Out Expeditions
 						<small>Group Adventure Expeditions</small>
 					</h4>
-					<p>
+					<p class="d-done d-sm-block">
 						Join Git Out Expeditions to explore new horizons with a
 						group of other adventurers!
 					</p>
@@ -111,7 +173,7 @@
 						Mongo Fly Shop
 						<small>Your Neighborhood Fly Fishing Shop</small>
 					</h4>
-					<p>
+					<p class="d-done d-sm-block">
 						Need a new fishing pole, a tacklebox, or flies of all
 						kinds? Stop by Mongo Fly Shop.
 					</p>
@@ -119,15 +181,53 @@
 						Node Outdoor Apparel
 						<small>Outdoor Clothes & Shoes</small>
 					</h4>
-					<p>
+					<p class="d-done d-sm-block">
 						From polar fleeces to swimsuits, hiking boots to waders,
 						a visit to Node will be sure to get you covered.
 					</p>
 				</div>
 			</div>
+
+			<div class="row row-content">
+				<div class="col-sm-9">
+					<h2>Facts &amp; Figures</h2>
+					<div class="table-responsive">
+						<table class="table table-striped">
+							<thead>
+								<tr class="bg-primary text-light">
+									<th></th>
+									<th>2016</th>
+									<th>2017</th>
+									<th>2018</th>
+								</tr>
+							</thead>
+							<tbody class="table-primary">
+								<tr>
+									<th>Staff Wilderness Experts</th>
+									<td>10</td>
+									<td>20</td>
+									<td>40</td>
+								</tr>
+								<tr>
+									<th>New Campers</th>
+									<td>256</td>
+									<td>1,280</td>
+									<td>5,360</td>
+								</tr>
+								<tr>
+									<th>Square Miles Covered</th>
+									<td>101,325</td>
+									<td>423,000</td>
+									<td>~3,00,000,000</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
 		</div>
 
-		<footer>
+		<footer class="site-footer">
 			<div class="container">
 				<div class="row">
 					<div class="col-4 col-sm-2 offset-1">
@@ -180,5 +280,9 @@
 				</div>
 			</div>
 		</footer>
+		<!-- jQuery must come first, then Popper.js, then the Bootstrap JavaScript plugins.-->
+		<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+		<script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 	</body>
 </html>
