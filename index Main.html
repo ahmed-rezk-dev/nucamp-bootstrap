@@ -50,15 +50,16 @@
 					<div
 						class="col-md-4 col-xl-2 d-flex align-self-center justify-content-center mt-2 mt-md-0"
 					>
-						<button
-							type="button"
+						<a
+							href="#reserveForm"
+							role="button"
 							class="btn btn-lg btn-info"
-							data-toggle="modal"
-							data-target=".reserveModal"
+							data-toggle="tooltip"
+							data-placement="bottom"
+							data-html="true"
 							title="Or call us at <br /><strong>1-206-555-1234</strong>"
+							>Reserve Campsite</a
 						>
-							Reserve Campsite
-						</button>
 					</div>
 				</div>
 			</div>
@@ -194,134 +195,6 @@
 			</div>
 		</div>
 		<!-- Login Modal End -->
-
-		<!-- reserve Modal -->
-		<div
-			class="modal fade reserveModal"
-			tabindex="-1"
-			role="dialog"
-			aria-labelledby="reserveModal"
-			aria-hidden="true"
-		>
-			<div class="modal-dialog modal-lg">
-				<div class="modal-content">
-					<div class="container-fluid">
-						<div class="row align-items-center">
-							<div class="card" style="width: 100%;">
-								<h3 class="card-header text-white bg-primary">
-									Reserve Campsite
-								</h3>
-								<div class="card-body">
-									<form
-										action=""
-										method="POST"
-										role="form"
-										id="reserveForm"
-									>
-										<div class="form-group row">
-											<label
-												for="numCampers"
-												class="col-form-label col-sm-6"
-												>Numbers of campers
-											</label>
-											<div class="col-sm-6">
-												<select
-													name="numCampers"
-													id="numCampers"
-													class="form-control"
-													required="required"
-												>
-													<option value="1">1</option>
-													<option value="2">2</option>
-													<option value="3">3</option>
-													<option value="4">4</option>
-													<option value="5">5</option>
-													<option value="6">6</option>
-												</select>
-											</div>
-										</div>
-
-										<div class="form-group row">
-											<label
-												for="date"
-												class="col-form-label col-sm-6"
-												>Numbers of campers
-											</label>
-											<div class="col-sm-6">
-												<input
-													type="date"
-													name="date"
-													id="date"
-													class="form-control"
-													value=""
-													required="required"
-													title=""
-												/>
-											</div>
-										</div>
-
-										<div class="form-group row">
-											<label
-												for="date"
-												class="col-form-label col-sm-6"
-												>Campsite Type
-											</label>
-											<div class="col-sm-6">
-												<div
-													class="btn-group btn-group-toggle"
-													data-toggle="buttons"
-												>
-													<label
-														class="btn btn-primary active"
-													>
-														<input
-															type="radio"
-															name="siteType"
-															id="siteTent"
-															value="tent"
-															autocomplete="off"
-															checked
-														/>
-														Tent
-													</label>
-													<label
-														class="btn btn-success"
-													>
-														<input
-															type="radio"
-															name="siteType"
-															id="siteRV"
-															value="RV"
-															autocomplete="off"
-														/>
-														RV
-													</label>
-												</div>
-											</div>
-										</div>
-
-										<button
-											type="submit"
-											class="btn btn-primary"
-										>
-											Search
-										</button>
-										<button
-											type="button"
-											class="btn btn-secondary"
-											data-dismiss="modal"
-										>
-											Close
-										</button>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<!-- reserve Modal End -->
 
 		<div class="container">
 			<!-- Carousel -->
@@ -515,9 +388,7 @@
 			<!-- Form Card Start -->
 			<div class="row row-content align-items-center col-sm-6 mx-auto">
 				<div class="card" style="width: 100%;">
-					<h3 class="card-header text-white bg-primary">
-						Reserve Campsite
-					</h3>
+					<h3 class="card-header text-white bg-primary">Header</h3>
 					<div class="card-body">
 						<form
 							action=""
