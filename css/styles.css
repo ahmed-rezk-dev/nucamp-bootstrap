@@ -128,3 +128,8 @@ header h2 {
 		margin-left: -15px;
 	}
 }
+#carouselButton {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+}
