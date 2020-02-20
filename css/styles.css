@@ -35,10 +35,10 @@ header h2 {
   .navbar-nav .nav-item .nav-link {
     transition: all 0.3s; }
   .navbar-nav .nav-item:hover {
-    border-color: #fff; }
+    border-color: #ffffff; }
 
 .navbar-nav .active {
-  border-color: #fff; }
+  border-color: #ffffff; }
 
 .site-footer {
   background-color: #775ada;
@@ -46,7 +46,7 @@ header h2 {
   .site-footer h5 {
     color: #28c7fa; }
   .site-footer a {
-    color: #fff; }
+    color: #ffffff; }
     .site-footer a:hover {
       color: #28c7fa; }
 
