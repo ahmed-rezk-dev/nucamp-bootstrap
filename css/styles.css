@@ -108,3 +108,12 @@ header h2 {
   .custom-card {
     margin-right: -15px;
     margin-left: -15px; } }
+
+.reserveModal .card-header {
+  background-color: #901cad !important;
+  border-color: #901cad !important; }
+
+#loginModal .modal-header {
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important;
+  color: #ffffff; }

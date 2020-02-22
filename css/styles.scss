@@ -9,6 +9,7 @@ $color-transparent-black: rgba(0, 0, 0, 0.5);
 $color-black: #000000;
 $color-white: #ffffff;
 $color-box-shadow: rgba(0, 0, 0, 0.1);
+$color-teal: #17a2b8;
 
 body {
 	font-family: "Open Sans", sans-serif;
@@ -142,5 +143,18 @@ header {
 	.custom-card {
 		margin-right: -15px;
 		margin-left: -15px;
+	}
+}
+.reserveModal {
+	.card-header {
+		background-color: $color-mid !important;
+		border-color: $color-mid !important;
+	}
+}
+#loginModal {
+	.modal-header {
+		background-color: $color-teal !important;
+		border-color: $color-teal !important;
+		color: $color-white;
 	}
 }
