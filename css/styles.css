@@ -110,10 +110,10 @@ header h2 {
     margin-left: -15px; } }
 
 .reserveModal .card-header {
-  background-color: #901cad !important;
-  border-color: #901cad !important; }
+  background-color: #17a2b8 !important;
+  border-color: #17a2b8 !important; }
 
 #loginModal .modal-header {
-  background-color: #17a2b8 !important;
-  border-color: #17a2b8 !important;
+  background-color: #901cad !important;
+  border-color: #901cad !important;
   color: #ffffff; }
